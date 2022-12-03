@@ -38,6 +38,19 @@ Ejecutar el script, al ejecutar el script, se le puede indicar uno o más reposi
 
 ```
 
+## Global
+Si deseamos tener acceso globar al script, podemos crear un enlace a /usr/local/bin
+
+```bash
+sudo ln $(pwd)/clone /usr/local/bin
+```
+
+Ahora podemos ejecutar el script desde cualquier directorio
+
+```bash
+clone <url del repositorio 1: https o git> [<url del repositorio n: https o git>]
+```
+
 ## Creación del token en GitLab
 
 #### Ingresar a GitLab
