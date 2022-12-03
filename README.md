@@ -31,10 +31,10 @@ vi .env
 # La variable USER puede conservar el valor por defecto
 ```
 
-Ejecutar el script
+Ejecutar el script, al ejecutar el script, se le puede indicar uno o más repositorios a clonar
 
 ```bash
-./clone <url del repositorio: https o git>
+./clone <url del repositorio 1: https o git> [<url del repositorio n: https o git>]
 
 ```
 
