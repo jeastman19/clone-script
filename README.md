@@ -42,7 +42,7 @@ Ejecutar el script, al ejecutar el script, se le puede indicar uno o más reposi
 Si deseamos tener acceso globar al script, podemos crear un enlace a /usr/local/bin
 
 ```bash
-sudo ln $(pwd)/clone /usr/local/bin
+sudo ln -s $(pwd)/clone /usr/local/bin
 ```
 
 Ahora podemos ejecutar el script desde cualquier directorio
